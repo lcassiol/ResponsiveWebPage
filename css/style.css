@@ -284,3 +284,89 @@ p{
   line-height: 27px;
   padding-top: 50px;
 }
+
+
+
+/* ================= FEATURES =======================*/
+
+.features-inner-wrapper{
+  padding-top: 30px;
+  padding-bottom: 70px;
+
+}
+
+
+.left-feature-item{
+  position: relative;
+  padding-right: 90px;
+  margin-bottom: 65px;
+  text-align: right;
+  margin-top: 35px;
+}
+
+.left-feature-item-icon{
+  position: absolute;
+  right: 0;
+  top:-8px;
+  font-size: 40px;
+  color:#129CF3;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+
+}
+
+.left-feature-item h3{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #333;
+
+}
+
+.left-feature-item p{
+  color:#333;
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 28px;
+}
+
+.feature-iphone img{
+  width: 100%;
+}
+
+.right-feature-item{
+  position: relative;
+  padding-left: 90px;
+  padding-bottom: 65px;
+  margin-top: 35px;
+  text-align: left;
+}
+
+.right-feature-item-icon{
+  position: absolute;
+  left: 0;
+  top: -8px;
+  font-size: 40px;
+  color: #129CF3;
+  width:90px;
+  height: 90px;
+  text-align: center;
+
+}
+
+.right-feature-item h3{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color:#333;
+}
+
+.right-feature-item p{
+  color:#333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
