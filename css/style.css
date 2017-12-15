@@ -49,6 +49,54 @@ p{
   margin-top: 45px;
 }
 
+/* ============== NAVIGATION =================*/
+.navbar-default{
+  background-color: transparent;
+  border-color: #444;
+  z-index: 110;
+
+  transition: all 1s;
+
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -o-transition:all 1s;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #B5B5B5;
+  font-family: "Raleway", sans-serif;
+  transition: all 1s;
+
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -o-transition:all 1s;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #129CF3;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+  color: #B5B5B5;
+}
+
+.navbar-brand{
+  padding: 9px 15px;
+}
+
+.navbar-brand img{
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -o-transition:all 1s;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+  background-color: transparent;
+  color: #129CF3;
+}
+
 
 /* ============== Header =================*/
 .header{
@@ -660,4 +708,47 @@ p{
 
 .social-icons ul li a i{
   font-size: 20px;
+}
+
+
+/* ====================== Footer  ===================== */
+
+.footer{
+  background-color: #1a1a1a;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  border-bottom: 3px solid #129CF3;
+}
+
+
+#copyright{
+  width: 50%;
+}
+
+#copyright p{
+  color: #8C8B8A;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#copyright p a{
+  text-decoration: none;
+  color: #129CF3;
+}
+
+
+.scroll-top{
+  text-align: right;
+}
+
+.scroll-top a{
+  background-color: #129CF3;
+  padding: 25px;
+}
+
+
+.scroll-top a i{
+  color:#fff;
+  font-size: 25px;
 }
