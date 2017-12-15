@@ -33,7 +33,42 @@
     <body>
 
       <!-- Header -->
-      <header class="header">
+      <header class="header" id="HOME">
+          <!-- Navigation -->
+
+          <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                  data-target="#loso-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">
+                      <!-- small size logo -->
+                      <img src="images/logo-small.png" alt="logo">
+
+                  </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#HOME" class="nav-item">HOME</a></li>
+                    <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
+                    <li><a href="#FEATURES" class="nav-item">FEATURES</a></li>
+                    <li><a href="#SCREENS" class="nav-item">SCREENS</a></li>
+                    <li><a href="#DOWNLOAD" class="nav-item">DOWNLOAD</a></li>
+                    <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
+                  </ul>
+
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+          </nav>
+
           <div class="header-overlay">
               <div class="container">
                   <div class="row">
@@ -70,7 +105,7 @@
       </header>
 
       <!-- About us -->
-      <section>
+      <section id="ABOUT">
           <div class="container">
               <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -227,7 +262,7 @@
 
 
      <!-- Features -->
-     <section class="features">
+     <section class="features" id="FEATURES">
          <div class="container">
 
             <div class="row">
@@ -386,7 +421,7 @@
       </section>
 
       <!-- Screens -->
-      <section class="screens">
+      <section class="screens" id="SCREENS">
 
           <div class="container">
 
@@ -492,7 +527,7 @@
 
 
       <!-- Download Now -->
-      <section class="download-now">
+      <section class="download-now" id="DOWNLOAD">
 
           <div class="conatiner">
 
@@ -541,7 +576,7 @@
                   <div class="col-md-6">
 
                       <div class="available-title">
-                            <h2> Available Now </h2>
+                            <h2> Available On </h2>
                             <p>Curabitur vitae dolor fermentum, egestas nulla eu, varius lacus.</p>
 
                       </div>
@@ -608,7 +643,7 @@
       </section>
 
       <!-- Contact us -->
-      <section class="contact-us">
+      <section class="contact-us" id="CONTACT">
 
           <div class="container">
 
@@ -683,9 +718,40 @@
       </section>
 
 
+      <!-- Footer -->
+      <footer class="footer">
+
+          <div class="container">
+
+              <div class="row">
+
+                  <div class="col-md-6">
+
+                    <div id="copyright">
+                      <p>Copyright &copy; 2016 <a href="#"> - Loso</a> </p>
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <div class="scroll-top">
+                          <a href="#HOME" id="scroll-to-top"> <i class="fa fa-angle-up"></i> </a>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+
+      </footer>
+
       <!-- Bootstrap and Jquery -->
       <script src="js/jquery.js"></script>
   		<script src="js/bootstrap.min.js"></script>
+
+      <!-- Custom JS -->
+      <script src="js/custom.js"></script>
     </body>
 
 
