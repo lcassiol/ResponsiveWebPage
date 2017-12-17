@@ -126,3 +126,47 @@ $(document).ready(function(){
     });
 
 });
+
+// add auto padding to Header
+
+$(document).ready(function(){
+
+    'use strict';
+    setInterval( function() {
+
+      'use strict';
+
+      var windowHeight = $(window).height();
+      var containerHeight = $(".header-container").height();
+
+      var padTop = windowHeight - containerHeight;
+        $(".header-container").css({
+
+          'padding-top': Math.round(padTop / 2) + 'px',
+          'padding-bottom': Math.round(padTop / 2) + 'px',
+
+        });
+
+
+    },10);
+
+});
+
+// add bxSlider
+$(document).ready(function(){
+
+    'use strict';
+
+    $('.bxslider').bxSlider({
+      auto: true,
+      minSlides:1,
+      maxSlides:5,
+      slideMargin: 50,
+      slideWidth: 292.5,
+      autoControls: true,
+      stopAutoOnClick: true,
+      pager: true,
+      slideWidth: 350
+    });
+
+});
