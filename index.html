@@ -11,9 +11,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"
 
 		<!-- css -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Jquery bxSlider -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
     <!-- Fontawesome -->
@@ -91,8 +100,8 @@
                           </div>
                           <div class="header-btns">
                               <!-- Header buttons -->
-                              <a href="#" class="btn btn-download">Download</a>
-                              <a href="#" class="btn btn-tour">Take a tour <i class="fa fa-angle-down"></i></a>
+                              <a href="#" class="btn btn-download wow fadeInLeft">Download</a>
+                              <a href="#" class="btn btn-tour wow fadeInRight">Take a tour <i class="fa fa-angle-down"></i></a>
                           </div>
                       </div>
                       <div class="col-md-3 col-md-offset-1">
@@ -127,12 +136,12 @@
                     <div class="row">
                         <div class="col-md-6">
                             <!-- About iphone -->
-                            <div class="about-iphone">
+                            <div class="about-iphone wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">
                                 <img src="images/about-iphone.png" alt="iphone">
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-6 wow fadeInRight" data-wow-duration="1s"  data-wow-delay=".5s">
                                 <!-- Why choose us title -->
                                 <div class="choose-us-title">
                                       <h2>Why Choose us?</h2>
@@ -144,7 +153,7 @@
                                 <!-- Why choose us description -->
                                 <div class="choose-us-des">
                                     <!-- choose us item 1 -->
-                                    <div class="choose-us-item">
+                                    <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                         <!-- choose us item icon -->
                                         <div><i class="fa fa-bolt"></i></div>
 
@@ -154,7 +163,7 @@
                                     </div>
 
                                     <!-- choose us item 2 -->
-                                    <div class="choose-us-item">
+                                    <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.5s">
                                         <!-- choose us item icon -->
                                         <div><i class="fa fa-bullhorn"></i></div>
 
@@ -164,7 +173,7 @@
                                     </div>
 
                                     <!-- choose us item 3 -->
-                                    <div class="choose-us-item">
+                                    <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.5s">
                                         <!-- choose us item icon -->
                                         <div><i class="fa fa-flag-o"></i></div>
 
@@ -190,7 +199,7 @@
 
             <div class="row">
 
-              <div class="col-md-12">
+              <div class="col-md-12 wow bounceInDown">
 
                 <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
 
@@ -272,7 +281,7 @@
 
                 <div class="col-md-10 col-md-offset-1">
 
-                   <div class="section-title">
+                   <div class="section-title wow fadeIn" data-wow-duration="1s">
                         <h2> Features </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                           quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
@@ -287,7 +296,7 @@
             <div class="container">
                 <div class="row">
 
-                  <div class="col-md-4">
+                  <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
 
                       <!-- Left feature item 01 -->
                       <div class="left-feature-item">
@@ -340,12 +349,12 @@
                       <div class="col-md-4">
                           <div class="feature-iphone">
 
-                              <img src="images/iphone-02.png" alt="iphone">
+                              <img class="wow bounceIn" data-wow-duration="1s" src="images/iphone-02.png" alt="iphone">
 
                           </div>
                       </div>
 
-                      <div class="col-md-4">
+                      <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
                           <!-- Right feature item 01 -->
                           <div class="right-feature-item">
                                 <!-- Icon -->
@@ -400,7 +409,7 @@
 
           <div class="container">
 
-              <div class="row">
+              <div class="row wow fadeInLeftBig" data-wow-duration="1s">
 
                     <div class="col-md-9">
 
@@ -445,7 +454,7 @@
 
           </div>
 
-          <div class="screen-slider">
+          <div class="screen-slider wow bounceInRight" data-wow-duration="1s">
 
               <div class="container">
 
@@ -562,7 +571,7 @@
 
             <div class="row">
 
-              <div class="col-md-8 col-md-offset-2">
+              <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
 
                     <img src="images/download-screen.png" alt="download screen">
 
@@ -578,7 +587,7 @@
 
       <section class="available-on">
 
-            <div class="container">
+            <div class="container wow bounceInRight" data-wow-duration="1s">
 
               <div class="row">
 
@@ -654,7 +663,7 @@
       <!-- Contact us -->
       <section class="contact-us" id="CONTACT">
 
-          <div class="container">
+          <div class="container wow bounceIn">
 
               <div class="row">
 
@@ -673,7 +682,7 @@
 
           </div>
 
-          <div class="contact-us-form">
+          <div class="contact-us-form wow bounceIn">
 
               <div class="container">
 
@@ -706,7 +715,7 @@
 
               <div class="row">
 
-                  <div class="col-md-12">
+                  <div class="col-md-12 wow bounceInLeft">
 
                       <div class="social-icons">
 
@@ -765,6 +774,9 @@
       <!-- ADd js counter lib -->
       <script src="js/jquery.counterup.min.js"></script>
       <script src="js/jquery.waypoints.min.js"></script>
+
+      <!-- Wow JS -->
+      <script src="js/wow.min.js"></script>
 
       <!-- Custom JS -->
       <script src="js/custom.js"></script>
