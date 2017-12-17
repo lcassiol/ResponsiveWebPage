@@ -170,3 +170,17 @@ $(document).ready(function(){
     });
 
 });
+
+
+// ADD counter
+$(document).ready(function(){
+
+    'use strict';
+
+    $('.counter-num').counterUp({
+        delay: 10,
+        time: 2000
+    });
+
+
+});
